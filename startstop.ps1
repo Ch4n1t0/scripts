@@ -1,3 +1,6 @@
+workflow startstop 
+{
+
 # Connect to Azure
 Connect-AzAccount -Identity
 
@@ -51,4 +54,5 @@ foreach ($Id in $SubscriptionList) {
 
         }
     }
+}
 }
